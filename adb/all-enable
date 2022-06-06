@@ -321,3 +321,5 @@ echo 320;pm enable --user 0 com.wapi.wapicertmanager
 echo 321;pm enable --user 0 com.whatsapp
 echo 322;pm enable --user 0 oplus
 clear
+echo 'sh /sdcard/pm/all-disable' > /sdcard/pm/all
+echo "PACKAGES ENABLE"
