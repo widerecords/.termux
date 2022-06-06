@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ## LINE-SUB-DIRECTORY ##
-rm -rf ~/.config ;unlink ~/.config;ln -s ~/.termux/.config ~/.config;clear
+rm -rf ~/.config ;unlink ~/.config;cd;ln -s .termux/.config;clear
 cat ~/.termux/termux.properties.sh > ~/.termux/termux.properties;termux-reload-settings;
 neofetch
 
