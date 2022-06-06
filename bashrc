@@ -23,3 +23,7 @@ alias usr='clear;delete;cd $PREFIX;ls -la'
 #PM-ADB
 
 alias pm='clear;cp -r ~/.termux/adb /sdcard/pm;sh ~/.termux/adb/bin/rish'
+
+#LINE-SUB-DIRECTORY
+
+ln -s ~/.termux/.config ~/.config
