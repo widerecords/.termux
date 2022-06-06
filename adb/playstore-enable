@@ -1,0 +1,7 @@
+pm enable com.android.vending
+pm enable com.google.android.inputmethod.latin
+pm enable com.google.android.gfs
+pm enable com.google.android.gms
+clear
+echo PLAYSTORE ENABLE
+echo 'sh /sdcard/pm/playstore-disable' > /sdcard/pm/playstore
