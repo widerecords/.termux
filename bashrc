@@ -24,6 +24,8 @@ alias usr='clear;delete;cd $PREFIX;ls -la'
 
 alias pm='clear;cp -r ~/.termux/adb /sdcard/pm;sh ~/.termux/adb/bin/rish'
 
-#LINE-SUB-DIRECTORY
+#LINE-DIRECTORY
 
-ln -s ~/.termux/.config ~/.config
+unlink ~/.config;ln -s ~/.termux/.config ~/.config
+
+
