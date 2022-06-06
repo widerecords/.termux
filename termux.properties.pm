@@ -1,5 +1,5 @@
 ### Two rows with more keys
- extra-keys = [['ESC','-','HOME','UP','END','alias [on]      ;alias ls="ls --color" ;alias clear="history -ca;clear" ;alias sd="clear;cd /sdcard/;ls -1a"','apk   [db]    ;sh /sdcard/pm/all','pm cler    ;sh /sdcard/pm/all-clear'], \
+ extra-keys = [['ESC','-','HOME','UP','END','alias [on]      ;alias ls="ls --color" ;alias clear="history -ca;clear" ;alias sd="clear;cd /sdcard/;ls -1a"','apk [db]           ;sh /sdcard/pm/all','pm cler    ;sh /sdcard/pm/all-clear'], \
                ['TAB','/','LEFT','DOWN','RIGHT','play [db]     ;sh /sdcard/pm/playstore','dir cler    ;sh /sdcard/pm/all-delete','ENTER']]
 
 ### After making changes and saving you need to run `termux-reload-settings`
