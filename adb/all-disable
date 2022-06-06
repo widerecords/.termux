@@ -321,3 +321,5 @@ echo 320;pm disable-user --user 0 com.wapi.wapicertmanager
 echo 321;pm disable-user --user 0 com.whatsapp
 echo 322;pm disable-user --user 0 oplus
 clear
+echo 'sh /sdcard/pm/all-enable' > /sdcard/pm/all
+echo "PACKAGES DISABLE"
