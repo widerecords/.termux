@@ -324,7 +324,7 @@ echo 322;pm uninstall-system-updates oplus
 clear
 echo FINISH UNINSTALL-SYSTEM-UPDATES;sleep 2
 clear
-echo START
+echo START CLEAR
 echo 1;pm clear --user 0 android
 echo 2;pm clear --user 0 android.auto_generated_rro_product__
 echo 3;pm clear --user 0 android.autoinstalls.config.oppo
