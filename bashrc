@@ -1,6 +1,9 @@
 #!/bin/bash
-neofetch
+
+## LINE-SUB-DIRECTORY ##
+rm -rf ~/.config ;unlink ~/.config;ln -s ~/.termux/.config ~/.config;clear
 cat ~/.termux/termux.properties.sh > ~/.termux/termux.properties;termux-reload-settings;
+neofetch
 
 ## BASH-ALIAS ##
 alias ls='ls --color'
@@ -12,9 +15,6 @@ alias clear='history -ca;clear'
 alias sd='clear;delete;cd /sdcard/;ls -1a'
 alias td='clear;delete;cd ~/;ls -la'
 alias usr='clear;delete;cd $PREFIX;ls -la'
-
-## LINE-SUB-DIRECTORY ##
-unlink ~/.config;ln -s ~/.termux/.config ~/.config
 
 ## PM-ADB ##
 alias pm='clear;cat ~/.termux/termux.properties.pm > ~/.termux/termux.properties;termux-reload-settings;cp -r ~/.termux/adb /sdcard/pm;sh ~/.termux/adb/bin/rish'
